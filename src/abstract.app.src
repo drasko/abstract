@@ -1,0 +1,20 @@
+{application, abstract,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { abstract_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    jsone,
+    bcrypt,
+    epgsql
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
